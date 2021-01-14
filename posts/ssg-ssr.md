@@ -3,17 +3,6 @@ title: "エンジニアのイロハ教えます"
 date: "2020-01-02"
 ---
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
-
-You can use Static Generation for many types of pages, including:
-
-- Marketing pages
-- Blog posts
-- E-commerce product listings
-- Help and documentation
-
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
-
-On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
-
-In that case, you can use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or you can skip pre-rendering and use client-side JavaScript to populate data.
+エンジニアとしての道のりは決して簡単ではありません。
+まずエンジニアとして心がける内容としましては、他人が自分のコードを見ても納得できるコードを書く事です。
+というのも、リーダブルコードの冒頭にありますように今書いているコードは半年後の自分が修正するかもしれないからです。ここでは何が言いたいのかと言いますと、他人が自分のコードを一目で見てわかるように書くように心がけることによって時間が経った時に自分がそのコードを修正するとなった時でも一目でコードがわかるようにするということです。具体的な例としましては分かりにくい関数を実装しているときは上にコメントを書いてあげる。分かりやすく具体的な変数名をかくことが挙げられます。

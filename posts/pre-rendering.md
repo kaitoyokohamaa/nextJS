@@ -3,9 +3,6 @@ title: "TOEICの試験の心得"
 date: "2020-01-01"
 ---
 
-`Toeic の心得を教えます。`
+`TOEIC の心得を教えます。`
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
-
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+TOEIC 当日最初にやったほうがいいこととしましては、あらかじめリスニングの音声を聞くと言う事です。本番当日の試験でリスニングの内容を聞くとなったら自分の耳が英語を聞く段階ではないのでびっくりしてしまいます。そのため、TOEIC 公式問題集、第 3 回以降ではパソコンからでも TOEIC の音声を聞くことができますのであらかじめリスニング内容をシャドーイングしてから試験本番に臨みましょう。また、試験時間はリスニング 45 分リーディング 75 分の計２時間となっており長期戦となりますので、水分はあまり取らずに本番に臨みましょう。
